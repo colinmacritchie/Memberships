@@ -7,4 +7,4 @@ def home(request):
         "the_name": name,
         }
 
-    return render(request, "base.html", context)
+    return render(request, "home.html", context)
