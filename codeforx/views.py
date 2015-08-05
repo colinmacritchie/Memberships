@@ -5,6 +5,7 @@ def home(request):
     name = "Colin"
     context = {
         "the_name": name,
+        "number": 12,
         }
 
     return render(request, "home.html", context)
